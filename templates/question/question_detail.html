@@ -7,4 +7,5 @@
 <p><a href="{% url 'question_update' pk=question.id %}">Edit Question</a></p>
 <p><a href="{% url 'question_delete' pk=question.id %}">Delete Question</a></p>
 {% endif %}
+<p><a href="{% url 'answer_create' pk=question.id %}">Write Answer</a></p>
 {% endblock %}
